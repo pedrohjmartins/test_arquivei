@@ -2,6 +2,8 @@
 
 Critério de Aceite: Quando um cliente arquivei informar um número de NFe válido,
 o sistema deve retornar a NFe pesquisada permitindo realizar a consulta completa.
+Porém quando o sistema de emissão de notas (SEFAZ) estiver fora, 
+exibir uma mensagem informando o motivo.
 
 Funcionalidade: Consultar NFe's
 Para validar as Notas Fiscais ELetrônicas
