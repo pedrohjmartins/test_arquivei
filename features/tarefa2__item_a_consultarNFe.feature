@@ -1,12 +1,7 @@
 #language: pt
 
-Critério de Aceite: Quando um cliente arquivei informar um número de NFe válido,
-o sistema deve retornar a NFe pesquisada permitindo realizar a consulta completa.
-Porém quando o sistema de emissão de notas (SEFAZ) estiver fora, 
-exibir uma mensagem informando o motivo.
-
 Funcionalidade: Consultar NFe's
-Para validar as Notas Fiscais ELetrônicas
+Para validar as Notas Fiscais Eletrônicas
 Como usuário do sistema
 Gostaria de consultar e validar as mesmas no sistema
 
@@ -17,7 +12,7 @@ Cenário: Realizar consulta de NFe's recebidas com sucesso
     Dado que o usuário esteja na tela de NFe na aba de Recebidas
     Quando informar uma número de NFe Válida e pesquisar
     Então o sistema deve retornar a NFe pesquisada
-    E permitir realizar a consulta por completa da mesma
+    E permitir visualizar a mesma
 
 @nferecebida
 Cenário: Realizar consulta de NFe's recebida com sistema da SEFAZ fora de serviço
@@ -32,7 +27,7 @@ Cenário: Realizar consulta de NFe's emitida com sucesso
     Dado que o usuário esteja na tela de NFe na aba de Emitidas
     Quando informar uma número de NFe Válida e pesquisar
     Então o sistema deve retornar a NFe pesquisada
-    E permitir realizar a consulta por completa da mesma
+    E permitir visualizar a mesma
 
 @nfeemitida
 Cenário: Realizar consulta de NFe's emitida com sistema da SEFAZ fora de serviço
