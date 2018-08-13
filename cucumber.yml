@@ -1,0 +1,6 @@
+##YAML Template
+---
+default: --format pretty -p html_report -p chrome
+html_report: --format html --out=relatório_funcionalidades.html
+
+chrome: BROWSER=chrome
